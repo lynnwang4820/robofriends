@@ -24,10 +24,10 @@
 
 // export default App;
 import React, {Component} from 'react';
-import CardList from './CardList';
-import {robots} from './robots';
-import SearchBox from './SearchBox';
-import Scroll from './Scroll';
+import CardList from '../Components/CardList';
+import {robots} from '../robots';
+import SearchBox from '../Components/SearchBox';
+import Scroll from '../Components/Scroll';
 
 class App extends Component{
   constructor(){
